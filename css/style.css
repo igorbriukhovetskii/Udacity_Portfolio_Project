@@ -1,5 +1,3 @@
-@import url(http://weloveiconfonts.com/api/?family=brandico);
-
 /*General*/
 * {
     box-sizing: border-box;
@@ -159,7 +157,7 @@ hr {
     height: 4px;
 }
 
-.work-item:hover img{
+.work-item:hover img {
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.76);
     opacity: 1;
     transition: 200ms;
@@ -175,7 +173,7 @@ hr {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 668px){
+@media screen and (max-width: 668px) {
     .featured-work-header {
         text-align: center;
     }
@@ -185,7 +183,7 @@ hr {
     font-size: 1.2em;
 }
 
-@media screen and (max-width: 468px){
+@media screen and (max-width: 468px) {
     .intro-text {
         font-size: 1em;
     }
@@ -198,7 +196,6 @@ footer {
 
 .social {
     align-items: center;
-    cursor: pointer;
     display: flex;
     justify-content: center;
     min-height: 100px;
@@ -208,7 +205,30 @@ footer {
     display: none;
 }
 
-@media screen and (max-width: 668px){
+.icon {
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+}
+
+.icon-github {
+    background: transparent url("../img/spritesheet.png") -88px -14px no-repeat;
+}
+
+.icon-facebook {
+    background: transparent url("../img/spritesheet.png") -12px -11px no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icon-vk {
+    background: transparent url("../img/spritesheet.png") -161px -10px no-repeat;
+}
+
+@media screen and (max-width: 668px) {
     .intro-text {
         margin: 0 12%;
         text-align: center;
